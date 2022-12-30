@@ -3,7 +3,7 @@ close all
 clc
 
 
-%% 1
+%% ---1---
 [x,fs] = audioread("bluewhale.au");
 chant = x(2.45e4:3.10e4);
 
