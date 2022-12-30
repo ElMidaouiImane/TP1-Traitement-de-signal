@@ -7,7 +7,7 @@
   <ol>              
       <li><a href="#Objectifs">Objectifs</a></li>
       <li><a href="#Représentation-temporelle-et-fréquentielle">Représentation temporelle et fréquentielle</a></li> 
-      <li><a href="#Analyse fréquentielle du chant du rorqual bleu">Analyse fréquentielle du chant du rorqual bleu</a></li> 
+      <li><a href="#Analyse-fréquentielle-du-chant-du-rorqual-bleu">Analyse fréquentielle du chant du rorqual bleu</a></li> 
   </ol>
   
   # Objectifs
@@ -115,7 +115,7 @@ title('le spectre Amplitude de signal+bruit centré');
 ##### Interprétation  
 plus l'intensité de bruit augmente on perd le signal informative 
 <br /><br /><br />
-# Analyse fréquentielle du chant du rorqual bleu  
+# Analyse-fréquentielle-du-chant-du-rorqual-bleu 
 
 Il existe plusieurs signaux dont l’information est encodée dans des sinusoïdes. Les ondes sonores est un bon exemple. Considérons maintenant des données audios collectées à partir de microphones sous - marins au large de la Californie. On cherche à détecter à travers une analyse de Fourier le contenu fréquentiel d’une onde sonore émise pas un rorqual bleu.  <br /><br />
 1- Chargez, depuis le fichier **‘bluewhale.au’**, le sous-ensemble de données qui correspond au chant du rorqual bleu du Pacifique. En effet, les appels de rorqual bleu sont des sons à basse fréquence, ils sont à peine audibles pour les humains. Utiliser la commande **audioread** pour lire le fichier. Le son à récupérer correspond aux indices allant de 2.45e4 à 3.10e4.  
@@ -128,9 +128,9 @@ chant = x(2.45e4:3.10e4);
 ```matlab
 sound(x,fs)
 
-N=length(chant);
-ts=1/fs;
-t=(0:N-1)*(10*ts);
+N = length(chant);
+ts = 1/fs;
+t = (0:N-1)*(10*ts);
 plot(t,chant);
 title('Le signal')
 ```
