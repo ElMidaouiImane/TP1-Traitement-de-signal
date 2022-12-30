@@ -2,6 +2,7 @@
   <h1 align="center">TP1- Analyse spectrale d’un signal transformée de Fourier discrète</h1>
 </div>
 
+
 <summary>Table of Contents</summary>
   <ol>              
       <li><a href="#Objectifs">Objectifs</a></li>
@@ -152,7 +153,8 @@ c'est la fréquence de premier pic (16 Hz-17 Hz)
 
 ![fréquence](https://user-images.githubusercontent.com/121026639/210090738-23b442bd-1414-4504-af4c-32abf920c391.png)
 
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h4> Réalisé par : EL MIDAOUI Imane  </h4> <br/> 
+ > Encadré par  : [Pr. AMMOUR Alae]
 
   
