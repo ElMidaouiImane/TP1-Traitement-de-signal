@@ -6,7 +6,7 @@
 <summary>Table of Contents</summary>
   <ol>              
       <li><a href="#Objectifs">Objectifs</a></li>
-      <li><a href="#Représentation temporelle et fréquentielle">Représentation temporelle et fréquentielle</a></li> 
+      <li><a href="#Représentation-temporelle-et-fréquentielle">Représentation temporelle et fréquentielle</a></li> 
       <li><a href="#Analyse fréquentielle du chant du rorqual bleu">Analyse fréquentielle du chant du rorqual bleu</a></li> 
   </ol>
   
@@ -29,7 +29,7 @@
 > commentaires sur ce que vous avez compris et pas compris, ou sur ce qui vous a
 > semblé intéressant ou pas, bref tout commentaire pertinent sur le TP.
 
-# Représentation temporelle et fréquentielle
+# Représentation-temporelle-et-fréquentielle
 
 Considérons un signal périodique x(t) constitué d’une somme de trois sinusoïdes de fréquences 440Hz, 550Hz, 2500Hz.  
   𝐱(𝐭) = 𝟏. 𝟐𝐜𝐨𝐬(𝟐𝐩𝐢𝟒𝟒𝟎𝐭 + 𝟏. 𝟐) + 𝟑𝐜𝐨𝐬(𝟐𝐩𝐢𝟓𝟓𝟎𝐭) + 𝟎. 𝟔𝐜𝐨𝐬(𝟐𝐩𝐢𝟐𝟓𝟎𝟎𝐭)  <br /> <br />
